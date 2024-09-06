@@ -86,6 +86,7 @@ i,span,p,a{
 .btn-close:hover{
     background-color: #ccc;
     opacity: 1;
+    --bs-btn-close-focus-shadow:0;
 }
 .btn-close{
    background-color: white;
