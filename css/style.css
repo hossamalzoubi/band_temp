@@ -86,7 +86,6 @@ i,span,p,a{
 .btn-close:hover{
     background-color: #ccc;
     opacity: 1;
-    --bs-btn-close-focus-shadow:0;
 }
 .btn-close{
    background-color: white;
@@ -95,6 +94,7 @@ i,span,p,a{
    position: absolute;
    top: 8px;
    right: 8px;
+   --bs-btn-close-focus-shadow:0;
 }
 .btn-danger:hover{
     --bs-btn-hover-color: black;
